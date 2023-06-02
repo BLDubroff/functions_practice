@@ -20,6 +20,12 @@ hello()
 # testing pack function
 print(pack("One", True, 3))
 
-# testing foods function
+# testing foods function with each constraint
+foods = []
+eat_lunch(foods)
+
+foods = ['fruit']
+eat_lunch(foods)
+
 foods = ['fruit', 'sandwiches', 'chocolate']
 eat_lunch(foods)
